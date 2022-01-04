@@ -4,6 +4,7 @@ body{font-family: 'Poppins', sans-serif;margin: 0;}
 h1{font-size: 50px;}
 .flexble{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{width: 50%; padding: 2%;}
 .half-width img{width:80%;}
@@ -11,5 +12,13 @@ h1{font-size: 50px;}
 .button{text-decoration: none;font-weight: 700;
     padding: 13px 50px;color: white; border-radius: 7px;
     background-image:linear-gradient(purple,tomato);
-
+}
+#right-image{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat; background-position: right;padding-bottom: 120px;
+}
+#db{color: black;}
+#button2{text-decoration: none;
+    padding: 15px 50px; border-radius: 5px;color: white;
+    font-weight: 700;background-image: linear-gradient(#FF247A,#684DDB );
 }
